@@ -22,11 +22,12 @@ aws s3 cp s3://allthebacteria-lexicmap/202408/ atb.lmi --recursive --no-sign-req
 ```
 
 ## sketchlib indexes
-Downloaded release 0.2 + incremental release 2024-08, from
-https://osf.io/rceq5/files/osfstorage
+Downloaded  from https://osf.io/rceq5/files/osfstorage
 
 
 ## ATB Assemblies
+
+This should be release 0.2 + incremental release 2024-08
 
 ```
 #!/bin/bash
