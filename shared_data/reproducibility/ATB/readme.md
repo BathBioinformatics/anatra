@@ -3,13 +3,23 @@ This is how the AllTheBacteria data was downloaded to anatra
 ## Lexicmap Indexes.
 
 **Step1. Create conda env and install awscli**
+
+```
 conda create --prefix /mnt/lifesciences/pra-0066/users/ajrh20_alex/envs/aws -c conda-forge awscli
+```
 
 **Step2. Test aws** 
+
+```
 aws s3 ls s3://allthebacteria-lexicmap/202408/ --no-sign-request
+```
+
 Step3. Download index in tmux
+
+```
 tmux new -s lexicmap-index
 aws s3 cp s3://allthebacteria-lexicmap/202408/ atb.lmi --recursive --no-sign-request
+```
 
 ## sketchlib indexes
 Downloaded from
