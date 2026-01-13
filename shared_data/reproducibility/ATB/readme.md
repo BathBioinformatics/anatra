@@ -18,6 +18,7 @@ https://osf.io/rceq5/files/osfstorage
 
 ## ATB Assemblies
 
+```
 #!/bin/bash
 output="/mnt/lifesciences/shared-data/AllTheBacteria/genomes/assemblies_download"
 log="/mnt/lifesciences/shared-data/AllTheBacteria/genomes/wget_download.log"
@@ -27,3 +28,4 @@ while IFS=$'\t' read -r name url; do
   echo "$(date) downloading $name" >> "$log"
   wget -O "$output/$name" "$url"
 done < unique_tarurls.tsv (edited) 
+```
