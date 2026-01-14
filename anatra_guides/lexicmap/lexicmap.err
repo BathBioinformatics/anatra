@@ -1,0 +1,27 @@
+/var/spool/slurmd/job932233/slurm_script: line 11: $' This scripts searchs for a plasmid in the ATB database using the aligner LexicMap. \n    The search returns the top 100 hits, a minimum alignment length of 1000, \n    a minimum 70% identity match of HSP. ': command not found
+
+CondaError: Run 'conda init' before 'conda activate'
+
+13:10:05.158 [INFO][0m LexicMap v0.8.0
+13:10:05.158 [INFO][0m   https://github.com/shenwei356/LexicMap
+13:10:05.158 [INFO][0m 
+13:10:05.158 [INFO][0m checking input files ...
+13:10:05.159 [INFO][0m   1 input file given: /mnt/lifesciences/pra-0066/users/ajrh20_alex/anatra/anatra_guides/lexicmap/example_hybrid_plasmid_CP153139.fasta
+13:10:05.159 [INFO][0m 
+13:10:05.159 [INFO][0m loading index: /mnt/lifesciences/shared-data/AllTheBacteria/indexes/lexicmap/atb.lmi
+13:10:05.160 [INFO][0m   reading masks...
+13:10:05.174 [INFO][0m   reading indexes of seeds (k-mer-value) data...
+13:10:06.035 [INFO][0m   creating reader pools for 98 genome batches, each with 9 readers...
+13:10:06.148 [INFO][0m index loaded in 989.853126ms
+13:10:06.148 [INFO][0m 
+13:10:06.148 [INFO][0m searching with 384 threads...
+13:10:06.148 [INFO][0m   maximum number of concurrent queries: 8, force garbage collection for every 64 queries
+
+13:11:19.020 [INFO][0m 
+13:11:19.020 [INFO][0m processed queries: 1, speed: 0.823 queries per minute
+13:11:19.020 [INFO][0m 100.0000% (1/1) queries matched
+13:11:19.020 [INFO][0m done searching
+13:11:19.020 [INFO][0m search results saved to: /mnt/lifesciences/pra-0066/users/ajrh20_alex/anatra/anatra_guides/lexicmap/plasmid_search_atb
+13:11:19.023 [INFO][0m 
+13:11:19.023 [INFO][0m elapsed time: 1m13.864244867s
+13:11:19.023 [INFO][0m 
