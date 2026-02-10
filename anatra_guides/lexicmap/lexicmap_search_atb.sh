@@ -1,4 +1,5 @@
-#!/bin/bas# This scripts searchs for a plasmid in the ATB database using the aligner LexicMap. 
+#!/bin/bash
+# This scripts searchs for a plasmid in the ATB database using the aligner LexicMap. 
 # The search returns the top 100 hits, a minimum alignment length of 1000, a minimum 70% identity match of HSP. 
 
 #Load my conda environments
