@@ -33,13 +33,6 @@ sketchlib sketch \
 
 #######Compute ANI distances of Salmonella sketches and the All The Bacteria (ATB) aggregated sketch database ###########
 #!/bin/bash
-#SBATCH --job-name=sketchsalmonella
-#SBATCH --account=pra-0070
-#SBATCH --output=sketchsalmonella.out
-#SBATCH --partition=lifesci
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=8G
 
 # Common paths
 DB="/mnt/lifesciences/pra-0066/users/ajrh20_alex/masters_mutationspectra/atb/atb_sketchlib.aggregated.202408"
