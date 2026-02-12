@@ -46,10 +46,10 @@ conda config --add channels conda-forge
 conda config --add channels bioconda
 conda config --set channel_priority strict
 
-conda create -p /mnt/lifesciences/<TEAM_DIRECTORY>/<YOUR_USERNAME>/envs/lexicmap -c bioconda lexicmap
+conda create -p /mnt/lifesciences/<TEAM_DIRECTORY>/<YOUR_USERNAME>/envs/test python
 #list and activate the enviornment
 conda env list
-conda activate /mnt/lifesciences/<TEAM_DIRECTORY>/<YOUR_USERNAME>/envs/lexicmap
+conda activate /mnt/lifesciences/<TEAM_DIRECTORY>/<YOUR_USERNAME>/envs/test
 ```
 
 6. Example of using slurmzy. This requests 1GB memory, 4 CPU and 1 hours of run time. Make sure script is executable. 
