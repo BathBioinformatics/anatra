@@ -15,9 +15,9 @@ Need to edit default account to your default account!
 
 cd
 nano .bashrc
-#copy and past the following CHANGE THE ACCOUNT.
+#copy and past the following CHANGE THE ACCOUNT. Replace XXXXX with whatever your number is
 export PATH=/mnt/lifesciences/shared-data/software/slurmzy/bin:$PATH
-export SLURMZY_DEFAULT_ACCOUNT=pra-0066
+export SLURMZY_DEFAULT_ACCOUNT=pra-XXXXX
 export SLURMZY_DEFAULT_PARTITION=lifesci
 
 #exit .bashrc and save changes
