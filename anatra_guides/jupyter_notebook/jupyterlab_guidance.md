@@ -1,6 +1,6 @@
-#Launching JupyterLab #
+# Launching JupyterLab #
 
-**Step 1. Install  **
+** Step 1. Install  **
 Guide: https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
 Example. Create a python virtual environment and install via pip
 ```
